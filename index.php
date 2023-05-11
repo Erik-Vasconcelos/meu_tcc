@@ -10,7 +10,9 @@ require 'app/sys/util.php';
 #require 'sys/validate.php';
 #require 'sys/messages.php';
 require 'app/models/Model.php';
+
 require 'app/models/Usuario.php';
+require 'app/models/Veiculo.php';
 
 
 $server_url = "http://".$_SERVER['SERVER_NAME'] . explode("index.php",$_SERVER['SCRIPT_NAME'])[0];

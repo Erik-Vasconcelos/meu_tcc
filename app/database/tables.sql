@@ -9,3 +9,13 @@ CREATE TABLE IF NOT EXISTS usuarios (
 );
 
 INSERT INTO usuarios (id, nome, dataNascimento, tipo, ativado) values (1,'teste','01-01-2000',1,1);
+
+DROP TABLE veiculos;
+
+CREATE TABLE IF NOT EXISTS veiculos (
+    id              INTEGER PRIMARY KEY,
+    placa            TEXT    NOT NULL,
+    cor text,
+    modelo  TEXT,
+    ano            INTEGER
+);
